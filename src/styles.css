@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 400px;
+  font-family: Arial, sans-serif;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 70%;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  margin-top: 10px;
+}
+
+li button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+li button:hover {
+  background-color: #ff3333;
+}
